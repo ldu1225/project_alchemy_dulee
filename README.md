@@ -1,6 +1,6 @@
 # Loading Data into BigQuery
 
-This section describes how to load customer contact information into the BigQuery table `gemini_demo.customer_contact_info` using the `bq` command-line tool.
+This section describes how to load customer contact information from a CSV file into the BigQuery table `gemini_demo.customer_contact_info` using the `bq` command-line tool. It utilizes an external JSON file (`alchemy_data1.json`) to define the table's schema.
 
 ## Prerequisites
 
@@ -21,18 +21,15 @@ Before you begin, ensure you have the following:
         bq mk gemini_demo
         ```
 
-3.  **Data Files:**
-    * Prepare your data files: `alchemy_data1.csv` for CSV import and `alchemy_data1.json` for JSON import.
-    * These files should be located in the directory where you run the `bq load` commands, or you must update the paths in the commands to point to the correct file locations.
-    * The data in these files should conform to the following schema:
-        * `customer_id`: INT64
-        * `customer_name`: STRING
-        * `phone_number`: STRING
-        * `email_address`: STRING
+3.  **Required Files:**
+    * You will need the following files:
+        * `alchemy_data1.csv`: This is your data file containing the customer records in CSV format.
+        * `alchemy_data1.json`: This is your **schema definition file** in JSON format. It should contain the content you provided (defining `customer_id`, `customer_name`, etc.).
+    * Both files should be located in the directory where you run the `bq load` command, or you must update the paths in the command to point to their correct locations.
 
-## Loading Data from a CSV File
+## Loading Data from a CSV File (Using an External JSON Schema File)
 
-To load data from a CSV file (e.g., `alchemy_data1.csv`) into the `gemini_demo.customer_contact_info` table, use the following command. This command assumes the CSV file has a header row (which will be skipped) and will replace the table if it already exists.
+To load data from your `alchemy_data1.csv` file into the `gemini_demo.customer_contact_info` table, using `alchemy_data1.json` as the schema definition, use the following command. This command assumes the CSV file has a header row (which will be skipped) and will replace the table if it already exists.
 
 ```bash
 bq load \
@@ -41,17 +38,4 @@ bq load \
     --replace=true \
     gemini_demo.customer_contact_info \
     ./alchemy_data1.csv \
-    customer_id:INT64,customer_name:STRING,phone_number:STRING,email_address:STRING
-Command Options Explained:
-```
-
-```bash
-
-bq load \
-    --source_format=JSON \
-    --replace=true \
-    gemini_demo.customer_contact_info \
-    ./alchemy_data1.json \
-    customer_id:INT64,customer_name:STRING,phone_number:STRING,email_address:STRING
-Command Options Explained:
-```
+    ./alchemy_data1.json
