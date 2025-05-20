@@ -1,0 +1,302 @@
+[
+  {
+    "customer_id": 1001,
+    "customer_name": "김서윤",
+    "phone_number": "010-1472-3865",
+    "email_address": "kim_seoyun1"
+  },
+  {
+    "customer_id": 1002,
+    "customer_name": "이하은",
+    "phone_number": "010-8064-7272",
+    "email_address": "lee_haeun2"
+  },
+  {
+    "customer_id": 1003,
+    "customer_name": "박지민",
+    "phone_number": "010-5431-2073",
+    "email_address": "park_jimin3"
+  },
+  {
+    "customer_id": 1004,
+    "customer_name": "최아린",
+    "phone_number": "010-2377-1960",
+    "email_address": "choi_arin4"
+  },
+  {
+    "customer_id": 1005,
+    "customer_name": "정유나",
+    "phone_number": "010-6935-2363",
+    "email_address": "jung_yuna5"
+  },
+  {
+    "customer_id": 1006,
+    "customer_name": "강리안",
+    "phone_number": "010-7848-1164",
+    "email_address": "kang_rian6"
+  },
+  {
+    "customer_id": 1007,
+    "customer_name": "조소율",
+    "phone_number": "010-4872-8476",
+    "email_address": "cho_soyul7"
+  },
+  {
+    "customer_id": 1008,
+    "customer_name": "윤가은",
+    "phone_number": "010-3920-2281",
+    "email_address": "yoon_gaeun8"
+  },
+  {
+    "customer_id": 1009,
+    "customer_name": "장시현",
+    "phone_number": "010-6463-7040",
+    "email_address": "jang_sihyun9"
+  },
+  {
+    "customer_id": 1010,
+    "customer_name": "임나은",
+    "phone_number": "010-5287-1274",
+    "email_address": "lim_naeun10"
+  },
+  {
+    "customer_id": 1011,
+    "customer_name": "김민준",
+    "phone_number": "010-1261-1076",
+    "email_address": "kim_minjun11"
+  },
+  {
+    "customer_id": 1012,
+    "customer_name": "이주원",
+    "phone_number": "010-8185-2213",
+    "email_address": "lee_joowon12"
+  },
+  {
+    "customer_id": 1013,
+    "customer_name": "박예준",
+    "phone_number": "010-7067-3148",
+    "email_address": "park_yejun13"
+  },
+  {
+    "customer_id": 1014,
+    "customer_name": "최현우",
+    "phone_number": "010-5198-7235",
+    "email_address": "choi_hyunwoo14"
+  },
+  {
+    "customer_id": 1015,
+    "customer_name": "정지호",
+    "phone_number": "010-8721-8158",
+    "email_address": "jung_jiho15"
+  },
+  {
+    "customer_id": 1016,
+    "customer_name": "강태양",
+    "phone_number": "010-1682-5264",
+    "email_address": "kang_taeyang16"
+  },
+  {
+    "customer_id": 1017,
+    "customer_name": "조은우",
+    "phone_number": "010-6213-6832",
+    "email_address": "cho_eunwoo17"
+  },
+  {
+    "customer_id": 1018,
+    "customer_name": "윤하준",
+    "phone_number": "010-7485-3990",
+    "email_address": "yoon_hajun18"
+  },
+  {
+    "customer_id": 1019,
+    "customer_name": "장이안",
+    "phone_number": "010-2810-2350",
+    "email_address": "jang_ian19"
+  },
+  {
+    "customer_id": 1020,
+    "customer_name": "임도윤",
+    "phone_number": "010-6095-4882",
+    "email_address": "lim_doyun20"
+  },
+  {
+    "customer_id": 1021,
+    "customer_name": "김지아",
+    "phone_number": "010-8932-2678",
+    "email_address": "kim_jia21"
+  },
+  {
+    "customer_id": 1022,
+    "customer_name": "이수아",
+    "phone_number": "010-1337-7434",
+    "email_address": "lee_sooa22"
+  },
+  {
+    "customer_id": 1023,
+    "customer_name": "박서현",
+    "phone_number": "010-3784-8631",
+    "email_address": "park_seohyun23"
+  },
+  {
+    "customer_id": 1024,
+    "customer_name": "최다은",
+    "phone_number": "010-5601-2046",
+    "email_address": "choi_daeun24"
+  },
+  {
+    "customer_id": 1025,
+    "customer_name": "정채원",
+    "phone_number": "010-4411-6709",
+    "email_address": "jung_chaewon25"
+  },
+  {
+    "customer_id": 1026,
+    "customer_name": "강보미",
+    "phone_number": "010-7398-3376",
+    "email_address": "kang_bomi26"
+  },
+  {
+    "customer_id": 1027,
+    "customer_name": "조예나",
+    "phone_number": "010-9274-5403",
+    "email_address": "cho_yena27"
+  },
+  {
+    "customer_id": 1028,
+    "customer_name": "윤시은",
+    "phone_number": "010-1014-6815",
+    "email_address": "yoon_sieun28"
+  },
+  {
+    "customer_id": 1029,
+    "customer_name": "장윤서",
+    "phone_number": "010-2153-7715",
+    "email_address": "jang_yoonseo29"
+  },
+  {
+    "customer_id": 1030,
+    "customer_name": "임하윤",
+    "phone_number": "010-7884-6845",
+    "email_address": "lim_hayun30"
+  },
+  {
+    "customer_id": 1031,
+    "customer_name": "김도현",
+    "phone_number": "010-6137-5272",
+    "email_address": "kim_dohyun31"
+  },
+  {
+    "customer_id": 1032,
+    "customer_name": "이시우",
+    "phone_number": "010-2945-8827",
+    "email_address": "lee_siwoo32"
+  },
+  {
+    "customer_id": 1033,
+    "customer_name": "박건우",
+    "phone_number": "010-3269-5910",
+    "email_address": "park_geonwoo33"
+  },
+  {
+    "customer_id": 1034,
+    "customer_name": "최우진",
+    "phone_number": "010-8059-2513",
+    "email_address": "choi_woojin34"
+  },
+  {
+    "customer_id": 1035,
+    "customer_name": "정선우",
+    "phone_number": "010-1851-2923",
+    "email_address": "jung_sunwoo35"
+  },
+  {
+    "customer_id": 1036,
+    "customer_name": "강로운",
+    "phone_number": "010-5834-2849",
+    "email_address": "kang_rowoon36"
+  },
+  {
+    "customer_id": 1037,
+    "customer_name": "조유찬",
+    "phone_number": "010-4098-9619",
+    "email_address": "cho_yuchan37"
+  },
+  {
+    "customer_id": 1038,
+    "customer_name": "윤재이",
+    "phone_number": "010-2581-2575",
+    "email_address": "yoon_jaeyi38"
+  },
+  {
+    "customer_id": 1039,
+    "customer_name": "장준서",
+    "phone_number": "010-7762-5198",
+    "email_address": "jang_junseo39"
+  },
+  {
+    "customer_id": 1040,
+    "customer_name": "임지석",
+    "phone_number": "010-4560-1057",
+    "email_address": "lim_jiseok40"
+  },
+  {
+    "customer_id": 1041,
+    "customer_name": "김서윤",
+    "phone_number": "010-3310-6943",
+    "email_address": "kim_seoyun41"
+  },
+  {
+    "customer_id": 1042,
+    "customer_name": "이하은",
+    "phone_number": "010-1208-5632",
+    "email_address": "lee_haeun42"
+  },
+  {
+    "customer_id": 1043,
+    "customer_name": "박지민",
+    "phone_number": "010-8649-6808",
+    "email_address": "park_jimin43"
+  },
+  {
+    "customer_id": 1044,
+    "customer_name": "최아린",
+    "phone_number": "010-6797-1874",
+    "email_address": "choi_arin44"
+  },
+  {
+    "customer_id": 1045,
+    "customer_name": "정유나",
+    "phone_number": "010-2407-9368",
+    "email_address": "jung_yuna45"
+  },
+  {
+    "customer_id": 1046,
+    "customer_name": "강리안",
+    "phone_number": "010-5015-8957",
+    "email_address": "kang_rian46"
+  },
+  {
+    "customer_id": 1047,
+    "customer_name": "조소율",
+    "phone_number": "010-3880-6118",
+    "email_address": "cho_soyul47"
+  },
+  {
+    "customer_id": 1048,
+    "customer_name": "윤가은",
+    "phone_number": "010-7012-9731",
+    "email_address": "yoon_gaeun48"
+  },
+  {
+    "customer_id": 1049,
+    "customer_name": "장시현",
+    "phone_number": "010-9218-6575",
+    "email_address": "jang_sihyun49"
+  },
+  {
+    "customer_id": 1050,
+    "customer_name": "임나은",
+    "phone_number": "010-1523-3275",
+    "email_address": "lim_naeun50"
+  }
+]
